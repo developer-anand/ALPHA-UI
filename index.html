@@ -4,10 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="shortcut icon" type="image/png" href="images/alpha (1).png" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="/navbar.css" />
+    <title>ALPHA UI</title>
   </head>
   <body>
-    <h1>Assignment one</h1>
-    <h1>Assignment practice</h1>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-left">
+          <a href="#"
+            ><img
+              class="nav-logo"
+              src="/images/alpha (1).png"
+              alt="ALPHA"
+            />UI</a
+          >
+        </div>
+        <ul class="nav-right" id="nav-list">
+          <li class="nav-right-item">
+            <a href="/Get Started/introduction.html">Docs</a>
+          </li>
+          <li class="nav-right-item"><a href="#">Examples</a></li>
+          <li class="nav-right-item"><a href="#">Github</a></li>
+        </ul>
+        <div class="menu" id="toggle-button">
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+        </div>
+      </nav>
+
+      <main>
+        <h1 class="main-header">Build fast, responsive sites with ALPHA UI</h1>
+        <p class="main-content">
+          Alpha UI is a CSS library, integrated with pre-defined styled classes,
+          and Utilites, for a quick creation of websites, with much focus on
+          Functionality.
+        </p>
+        <div class="main-btn">
+          <a href="/documentation.html" class="btn btn-primary">
+            Get Started
+          </a>
+          <a href="#" target="_blank" class="btn btn-secondary">GitHub</a>
+        </div>
+      </main>
+    </div>
+    <script>
+      const togglebutton = document.getElementById("toggle-button");
+      const navList = document.getElementById("nav-list");
+
+      togglebutton.addEventListener("click", () => {
+        navList.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
