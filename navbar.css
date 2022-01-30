@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  width: 100%;
+  min-height: 100vh;
+  height: max-content;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+:root {
+  --primary-color: #9ad4d6;
+  --default-color: #172b4d;
+  --secondary-color: #f3f4f6;
+  --danger-color: #f44336;
+  --success-color: #4caf50;
+  --warning-color: #ff9800;
+
+  --primary-hover: #4f46e5;
+  --secondary-hover: #e5e7eb;
+  --danger-hover: #d31609;
+  --success-hover: #0d8611;
+  --active-hover: #058ce0;
+
+  --off-white: #f6f9fc;
+  --active-color: #1ea7fd;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 80%;
+  min-height: 100vh;
+  height: max-content;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  /* height: 7rem; */
+}
+
+.nav-logo {
+  height: 1rem;
+  width: 1rem;
+}
+
+/* .nav-left {
+  align-self: flex-start;
+} */
+.nav-left a {
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-right {
+  padding-right: 2rem;
+  list-style-type: none;
+}
+
+.nav-right-item {
+  display: inline-block;
+}
+
+.nav-right-item a {
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-right-item a:hover,
+.nav-left a:hover {
+  color: var(--primary-color);
+}
+
+.menu {
+  display: none;
+}
+.menu-line {
+  width: 2rem;
+  height: 0.2rem;
+  background-color: black;
+  margin-bottom: 0.3rem;
+}
+
+@media all and (max-width: 400px) {
+  .nav {
+    flex-direction: column;
+  }
+  .menu {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 2rem;
+  }
+  .nav-left {
+    position: absolute;
+    left: 1rem;
+  }
+  .nav-right {
+    display: none;
+  }
+  .nav-right-item {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+    display: block;
+  }
+  .active {
+    display: block;
+  }
+}
