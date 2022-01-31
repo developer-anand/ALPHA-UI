@@ -7,9 +7,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
+html {
   font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
   width: 100%;
   min-height: 100vh;
   height: max-content;
@@ -17,6 +19,7 @@ body {
 }
 
 :root {
+  /* font-size: 100%; */
   --primary-color: #9ad4d6;
   --default-color: #172b4d;
   --secondary-color: #f3f4f6;

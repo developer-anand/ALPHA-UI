@@ -5,8 +5,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  flex-shrink: 0;
 }
 
+.container-flex {
+  display: flex;
+  flex-direction: row;
+}
 .comp-header {
   font-size: 1rem;
   font-weight: 700;
