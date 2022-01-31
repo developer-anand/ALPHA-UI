@@ -75,6 +75,7 @@
   display: inline-flex;
   position: relative;
   width: 3rem;
+  margin: 1.6rem;
 }
 
 .badge-online {
