@@ -78,31 +78,21 @@
   margin: 1.6rem;
 }
 
-.badge-online {
+.badge-status {
   position: absolute;
-  background-color: green;
   height: 1rem;
   width: 1rem;
   border-radius: 50%;
   left: 5rem;
   top: 2rem;
 }
+.badge-online {
+  background-color: green;
+}
 .badge-inactive {
-  position: absolute;
   background-color: rgb(128, 19, 0);
-  height: 1rem;
-  width: 1rem;
-  border-radius: 50%;
-  left: 5rem;
-  top: 2rem;
 }
 
 .badge-offline {
-  position: absolute;
   background-color: grey;
-  height: 1rem;
-  width: 1rem;
-  border-radius: 50%;
-  left: 5rem;
-  top: 2rem;
 }
