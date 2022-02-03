@@ -1,15 +1,6 @@
 @import "common.css";
 
 main {
-  /* display: block;
-  width: 40rem; */
-  /* display: flex;
-  align-content: center;
-  flex-direction: column;
-  text-align: center;
-  width: 40rem;
-  flex-wrap: wrap;
-   */
   text-align: center;
   margin: auto;
   max-width: 70rem;
@@ -39,6 +30,9 @@ main {
   flex-wrap: wrap;
 }
 
+.main-btn a {
+  font-size: 2rem;
+}
 .btn {
   margin-top: 2rem;
   border: none;

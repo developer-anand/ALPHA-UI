@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+.container-flex {
+  display: flex;
+}
+
 body {
   /* font-size: 1.6rem; */
   font-size: 62.5%;
@@ -18,7 +22,7 @@ body {
 }
 
 :root {
-  /* font-size: 62.5%; */
+  font-size: 62.5%;
   --primary-color: #9ad4d6;
   --default-color: #172b4d;
   --secondary-color: #f3f4f6;

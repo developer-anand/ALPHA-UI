@@ -11,7 +11,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
   width: 100%;
   min-height: 100vh;
   height: max-content;
@@ -58,8 +58,8 @@ html {
 }
 
 .nav-logo {
-  height: 1rem;
-  width: 1rem;
+  height: 1.7rem;
+  width: 2rem;
 }
 
 /* .nav-left {
@@ -67,7 +67,7 @@ html {
 } */
 .nav-left a {
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: none;
   color: black;
   cursor: pointer;
@@ -86,7 +86,7 @@ html {
 .nav-right-item a {
   font-weight: 600;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 2rem;
   padding: 1rem;
   color: black;
   cursor: pointer;
