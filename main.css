@@ -3,7 +3,7 @@
 main {
   text-align: center;
   margin: auto;
-  max-width: 70rem;
+  max-width: 80rem;
   width: 80%;
   padding-top: 7rem;
 }
@@ -52,8 +52,32 @@ main {
   color: rgb(17, 16, 16);
 }
 
+.main-installation-header {
+  padding: 2rem;
+  font-size: 4rem;
+}
+.main-installation-left {
+  /* margin-top: 20rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.main-title {
+  font-size: 2rem;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  background-color: var(--primary-color);
+}
 @media screen and (max-width: 800px) {
   .main-header {
+    font-size: 2rem;
+  }
+  .main-installation-header {
     font-size: 2rem;
   }
 

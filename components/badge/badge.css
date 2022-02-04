@@ -1,0 +1,27 @@
+.badge-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.badge-title-v2 {
+  margin-top: 2rem;
+  font-size: 2.6rem;
+  font-weight: 300;
+}
+.badge-content {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.on-icon {
+  padding: 4rem;
+  width: 50rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.badge {
+  font-size: 4rem;
+}

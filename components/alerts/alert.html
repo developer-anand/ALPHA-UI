@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>avator</title>
-    <link rel="stylesheet" href="avatar.css" />
+    <link rel="stylesheet" href="alert.css" />
     <link rel="stylesheet" href="/navbar.css" />
     <link rel="stylesheet" href="/documentation.css" />
     <link rel="stylesheet" href="/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
@@ -117,120 +121,37 @@
             </ul>
           </div>
         </div>
-        <div class="avatar-container">
-          <h1 class="avatar-header">Avator</h1>
-          <p class="avatar-content">
-            Avatars are user profile pictures, usually found in circular shapes.
-            Avatars can be used for 'container' objects — projects, spaces,
-            repositories, etcetera — to give them a recognisable visual
-            identity.
+        <div class="alert-container">
+          <div class="alert-title">Alert</div>
+          <p class="alert-content">
+            Alerts are used to communicate a state that affects a system,
+            feature or page.
           </p>
-          <h2 class="avatar-header">Profile Avatar</h2>
-          <ul class="avatar-list">
-            <li class="avatar-list-item">
-              <img
-                src="https://bit.ly/dan-abramov"
-                alt="Dan Abrahmov"
-                class="avt-img"
-              />
-            </li>
-            <li class="avatar-list-item">
-              <img
-                src="https://bit.ly/kent-c-dodds"
-                alt="Kent Dodds"
-                class="avt-img"
-              />
-            </li>
-            <li class="avatar-list-item">
-              <img
-                src="https://bit.ly/ryan-florence"
-                alt="Ryan Florence"
-                class="avt-img"
-              />
-            </li>
-            <li class="avatar-list-item">
-              <img
-                src="https://bit.ly/prosper-baba"
-                alt="Prosper Otemuyiwa"
-                class="avt-img"
-              />
-            </li>
-            <li class="avatar-list-item">
-              <img
-                src="https://bit.ly/code-beast"
-                alt="Christian Nwamba"
-                class="avt-img"
-              />
-            </li>
-          </ul>
-
-          <div class="avatar-sizes">
-            <h2 class="avatar-header">Avatar Sizes</h2>
-            <p class="avatar-content">
-              The Avatar component comes in different sizes.
+          <section class="simple-alert">
+            <h3 class="header">Simple Alert</h3>
+            <p class="alert-content">
+              Provide contextual feedback messages for typical user actions with
+              the handful of available and flexible alert messages.
             </p>
+            <div class="example-div alert-box">
+              <div class="alert primary">
+                <strong>Primary!</strong> This is a Primary Alert - Check it
+                now!
+              </div>
 
-            <img
-              src="https://bit.ly/dan-abramov"
-              alt="Dan Abrahmov"
-              class="avatar avatar-xs"
-            />
+              <div class="alert error">
+                <strong>Error!</strong> This is an Error Alert - Check it now!
+              </div>
 
-            <img
-              src="https://bit.ly/kent-c-dodds"
-              alt="Kent Dodds"
-              class="avatar avatar-sm"
-            />
+              <div class="alert success">
+                <strong>Success!</strong> This is a Success Alert - Check it
+                now!
+              </div>
 
-            <img
-              src="https://bit.ly/ryan-florence"
-              alt="Ryan Florence"
-              class="avatar avatar-xd"
-            />
-
-            <img
-              src="https://bit.ly/prosper-baba"
-              alt="Prosper Otemuyiwa"
-              class="avatar avatar-md"
-            />
-
-            <img
-              src="https://bit.ly/code-beast"
-              alt="Christian Nwamba"
-              class="avatar avatar-lg"
-            />
-          </div>
-
-          <section class="avatar-badge">
-            <h2 class="avatar-header">Avatar with Badge.</h2>
-            <p class="avatar-content">
-              In some products, you might need to show a badge on the right
-              corner of the avatar. We call this a badge. Here's an example that
-              shows if the user is online:
-            </p>
-            <div class="badge">
-              <img
-                src="https://bit.ly/dan-abramov"
-                alt="Dan Abrahmov"
-                class="avatar badge-img"
-              />
-              <span class="badge-status badge-online"></span>
-            </div>
-            <div class="badge">
-              <img
-                src="https://bit.ly/kent-c-dodds"
-                alt="Kent Dodds"
-                class="avatar badge-img"
-              />
-              <span class="badge-status badge-inactive"></span>
-            </div>
-            <div class="badge">
-              <img
-                src="https://bit.ly/ryan-florence"
-                alt="Ryan Florence"
-                class="avatar badge-img"
-              />
-              <span class="badge-status badge-offline"></span>
+              <div class="alert warning">
+                <strong>Warning!</strong> This is a Warning Alert - Check it
+                now!
+              </div>
             </div>
           </section>
         </div>
