@@ -60,6 +60,7 @@
 .avatar-badge {
   margin-top: 1.5rem;
 }
+
 .badge-img {
   width: 100%;
   max-height: fit-content;
@@ -80,6 +81,7 @@
   left: 5rem;
   top: 2rem;
 }
+
 .badge-online {
   background-color: green;
 }
