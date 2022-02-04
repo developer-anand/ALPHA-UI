@@ -1,11 +1,32 @@
+@import "/common.css";
+
+.alert-container {
+  width: 70%;
+}
+
 .alert-title {
   font-size: 3rem;
+  font-weight: 500;
 }
 
 .alert-content {
   font-size: 1.5rem;
   padding: 1rem;
+  margin-bottom: 2rem;
 }
+
+.simple-alert-header {
+  font-size: 2rem;
+}
+
+.example-div {
+  display: flex;
+  padding: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-width: 0.2rem;
+}
+
 .example-div {
   padding: 1rem;
   font-size: 2rem;
@@ -14,22 +35,41 @@
   gap: 7px;
   width: 45rem;
 }
-.alert .primary {
-  background-color: rgb(0, 109, 128);
-  border: 4px solid black;
+
+.alert {
+  min-width: 80rem;
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
 }
 
-.alert .error {
-  background-color: red;
-  border: 4px solid black;
+.alert-primary {
+  color: var(--secondary-color);
+  background-color: var(--active-hover);
+  border-color: var(--off-white);
 }
 
-.alert .success {
-  background-color: green;
-  border: 4px solid black;
+.alert-error {
+  color: var(--secondary-color);
+  background-color: var(--danger-color);
+  border-color: var(--off-white);
 }
 
-.alert .warning {
-  background-color: yellow;
-  border: 4px solid black;
+.alert-success {
+  color: var(--primary-color);
+  background-color: var(--success-color);
+  border-color: var(--off-white);
+}
+
+.alert-warning {
+  color: var(--warning-hover);
+  background-color: var(--warning-color);
+  border-color: var(--off-white);
+}
+
+.alert-link {
+  text-decoration: underline;
+  color: var(--off-white);
 }

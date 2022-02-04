@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>avator</title>
-    <link rel="stylesheet" href="alert.css" />
+    <link rel="stylesheet" href="/components/alerts/alert.css" />
+    <link rel="stylesheet" href="/common.css" />
     <link rel="stylesheet" href="/navbar.css" />
     <link rel="stylesheet" href="/documentation.css" />
     <link rel="stylesheet" href="/main.css" />
@@ -48,7 +49,7 @@
                 <a
                   href="/components/avatar/avatar.html"
                   class="comp-list-item-avator"
-                  ><span>Avator</span></a
+                  ><span>Avatar</span></a
                 >
               </li>
 
@@ -128,31 +129,39 @@
             feature or page.
           </p>
           <section class="simple-alert">
-            <h3 class="header">Simple Alert</h3>
+            <div class="simple-alert-header">Simple Alert</div>
             <p class="alert-content">
               Provide contextual feedback messages for typical user actions with
               the handful of available and flexible alert messages.
             </p>
             <div class="example-div alert-box">
-              <div class="alert primary">
+              <div class="alert alert-primary">
                 <strong>Primary!</strong> This is a Primary Alert - Check it
                 now!
               </div>
 
-              <div class="alert error">
+              <div class="alert alert-error">
                 <strong>Error!</strong> This is an Error Alert - Check it now!
               </div>
 
-              <div class="alert success">
+              <div class="alert alert-success">
                 <strong>Success!</strong> This is a Success Alert - Check it
                 now!
               </div>
 
-              <div class="alert warning">
+              <div class="alert alert-warning">
                 <strong>Warning!</strong> This is a Warning Alert - Check it
                 now!
               </div>
             </div>
+          </section>
+          <section class="link-alert">
+            <div class="simple-alert-header">Link Alert</div>
+            <div class="example-div alert-box">
+              <div class="alert alert-primary">
+                <strong>Primary!</strong> This is a <a href="#" class="alert-link">Primary Alert</a> - Check it
+                now!
+              </div>
           </section>
         </div>
       </div>
