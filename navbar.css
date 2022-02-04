@@ -2,49 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-size: 62.5%;
-  width: 100%;
-  min-height: 100vh;
-  height: max-content;
-  font-family: "Nunito Sans", sans-serif;
-}
-
-:root {
-  --primary-color: #9ad4d6;
-  --default-color: #172b4d;
-  --secondary-color: #f3f4f6;
-  --danger-color: #f44336;
-  --success-color: #4caf50;
-  --warning-color: #ff9800;
-
-  --primary-hover: #4f46e5;
-  --secondary-hover: #e5e7eb;
-  --danger-hover: #d31609;
-  --success-hover: #0d8611;
-  --active-hover: #058ce0;
-
-  --off-white: #f6f9fc;
-  --active-color: #1ea7fd;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.container {
-  width: 80%;
-  min-height: 100vh;
-  height: max-content;
-  margin: auto;
-}
-
 .nav {
   display: flex;
   justify-content: center;
@@ -55,16 +12,17 @@ html {
 }
 
 .nav-logo {
-  height: 1rem;
-  width: 1rem;
+  height: 1.7rem;
+  width: 2rem;
 }
 
 /* .nav-left {
   align-self: flex-start;
 } */
 .nav-left a {
+  padding-left: 6rem;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration: none;
   color: black;
   cursor: pointer;
@@ -83,7 +41,7 @@ html {
 .nav-right-item a {
   font-weight: 600;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 2rem;
   padding: 1rem;
   color: black;
   cursor: pointer;

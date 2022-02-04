@@ -7,13 +7,18 @@
     <link rel="shortcut icon" type="image/png" href="images/alpha (1).png" />
     <link rel="stylesheet" href="./main.css" />
     <link rel="stylesheet" href="/navbar.css" />
+    <link rel="stylesheet" href="prism.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+  />
     <title>ALPHA UI</title>
   </head>
   <body>
     <div class="container">
       <nav class="nav">
         <div class="nav-left">
-          <a href="#"
+          <a href="/index.html"
             ><img
               class="nav-logo"
               src="/images/alpha (1).png"
@@ -23,7 +28,7 @@
         </div>
         <ul class="nav-right" id="nav-list">
           <li class="nav-right-item">
-            <a href="/documentation.html">Docs</a>
+            <a href="/components/avatar/avatar.html">Docs</a>
           </li>
           <li class="nav-right-item"><a href="#">Examples</a></li>
           <li class="nav-right-item"><a href="#">Github</a></li>
@@ -43,13 +48,50 @@
           Functionality.
         </p>
         <div class="main-btn">
-          <a href="/documentation.html" class="btn btn-primary">
+          <a href="/components/avatar/avatar.html" class="btn btn-primary">
             Get Started
           </a>
           <a href="#" target="_blank" class="btn btn-secondary">GitHub</a>
         </div>
+        <div class="main-installation">
+          <div class="main-installation-header">Installation</div>
+          <div class="main-installation-container">
+            <div class="main-installation-left">
+              <h3 class="main-title">
+                In order to start using our component library, you need to include
+                the said lines in the head tag of your html page.
+              </h3>
+            </div>
+            <div class="main-installation-right">
+              <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Falphauidev.netlify.app%2522%2520%252F%253E"
+                  scrolling="no"
+                  style="
+                  width: 100%;
+                  height: 20rem;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                  
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="main-footer">
+        <h3>
+          Made With <i style="color: red" class="fas fa-heart"></i> by
+          <i class="fab fa-twitter"
+            ><a href="">@anand_jha</a></i
+          >
+        </h3>
+      </footer>
       </main>
     </div>
+    <script src="prism.js"></script>
     <script>
       const togglebutton = document.getElementById("toggle-button");
       const navList = document.getElementById("nav-list");

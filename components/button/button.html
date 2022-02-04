@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/prism.css" />
+    <link rel="stylesheet" href="/navbar.css" />
+    <link rel="stylesheet" href="/documentation.css" />
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="/components/button/button.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-left">
+          <a href="/index.html"
+            ><img
+              class="nav-logo"
+              src="/images/alpha (1).png"
+              alt="ALPHA"
+            />UI</a
+          >
+        </div>
+        <ul class="nav-right" id="nav-list">
+          <li class="nav-right-item">
+            <a href="/documentation.html">Docs</a>
+          </li>
+          <li class="nav-right-item"><a href="#">Examples</a></li>
+          <li class="nav-right-item"><a href="#">Github</a></li>
+        </ul>
+        <div class="menu" id="toggle-button">
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+        </div>
+      </nav>
+      <div class="container-flex">
+        <div class="components-container">
+          <p class="comp-header">Components</p>
+          <div role="group" class="comp-box">
+            <ul class="comp-list">
+              <li class="comp-list-item">
+                <a
+                  href="/components/avatar/avatar.html"
+                  class="comp-list-item-avator"
+                  ><span>Avator</span></a
+                >
+              </li>
+
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-alert"><span>Alert</span></a>
+              </li>
+
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-badge"><span>Badge</span></a>
+              </li>
+
+              <li class="comp-list-item">
+                <a
+                  href="/components/button/button.html"
+                  class="comp-list-item-button"
+                  ><span>Button</span></a
+                >
+              </li>
+
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-card"><span>Card</span></a>
+              </li>
+
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-image"><span>Image</span></a>
+              </li>
+
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-input"><span>Input</span></a>
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-textUtilities"
+                  ><span>Text Utilites</span></a
+                >
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-navigation"
+                  ><span>Navigation</span></a
+                >
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-lists"><span>Lists</span></a>
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-model"><span>Model</span></a>
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-rating"
+                  ><span>Rating</span></a
+                >
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-toast"
+                  ><span>Toast/Notify/Snackbar</span></a
+                >
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-grid"
+                  ><span>Simplified Grid </span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-container">
+          <h1 class="btn-title">Buttons</h1>
+          <p class="btn-content">
+            Use AlphaUI custom button styles for actions in forms, dialogs, and
+            more with support for multiple sizes, states, and more.
+          </p>
+          <div class="btn-title">Examples</div>
+          <div class="btn-example">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+
+            <button type="button" class="btn btn-link">Link</button>
+          </div>
+
+          <div class="btn-title">Outline buttons</div>
+          <div class="btn-outline-examples">
+            <button type="button" class="btn btn-outline-primary">
+              Primary
+            </button>
+            <button type="button" class="btn btn-outline-secondary">
+              Secondary
+            </button>
+            <button type="button" class="btn btn-outline-success">
+              Success
+            </button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-warning">
+              Warning
+            </button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-light">Light</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+          </div>
+
+          <div class="btn-title">Sizes</div>
+          <div class="btn-sizes-lg">
+            <button type="button" class="btn btn-primary btn-lg">
+              Large button
+            </button>
+            <button type="button" class="btn btn-secondary btn-lg">
+              Large button
+            </button>
+          </div>
+          <div class="btn-sizes-sm">
+            <button type="button" class="btn btn-primary btn-sm">
+              Small button
+            </button>
+            <button type="button" class="btn btn-secondary btn-sm">
+              Small button
+            </button>
+          </div>
+          <div class="btn-title">Active State</div>
+          <div class="btn-state-active">
+            <a
+              href="#"
+              class="btn btn-primary btn-lg active"
+              role="button"
+              aria-pressed="true"
+              >Primary link</a
+            >
+            <a
+              href="#"
+              class="btn btn-secondary btn-lg active"
+              role="button"
+              aria-pressed="true"
+              >Link</a
+            >
+          </div>
+          <div class="btn-state-disabled">
+            <button type="button" class="btn btn-lg btn-primary" disabled>
+              Primary button
+            </button>
+            <button type="button" class="btn btn-secondary btn-lg" disabled>
+              Button
+            </button>
+          </div>
+          <div class="btn-title">Icon button</div>
+          <div class="btn-content">
+            Icon buttons are commonly found in app bars and toolbars. Icons are
+            also appropriate for toggle buttons that allow a single choice to be
+            selected or deselected, such as adding or removing a star to an
+            item.
+          </div>
+          <div class="btn-icon">
+            <i class="fas fa-trash"></i>
+            <i class="fas fa-cart-plus"></i>
+            <i class="far fa-times-circle"></i>
+          </div>
+
+          <div class="btn-title">Floting button</div>
+          <div class="btn-content">
+            Toggle buttons can be used to change the theme. For class and html,
+            check below code. Floating-action buttons can be customized by
+            adding the font-awesome icon of your choice. This button will be
+            fixed to right-bottom corner.
+          </div>
+          <div class="btn-icon">
+            <label class="btn-toggle flex-items"
+              ><input class="btn-checkbox" type="checkbox" /><span
+                class="btn-slider-round"
+              ></span
+            ></label>
+            <a class="btn btn-float-action flex-items"
+              ><i class="fas fa-plus"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/prism.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
