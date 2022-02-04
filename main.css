@@ -22,7 +22,6 @@ main {
 }
 
 .main-btn {
-  /* width: 30rem; */
   margin: auto;
   display: flex;
   justify-content: space-evenly;
@@ -57,7 +56,6 @@ main {
   font-size: 4rem;
 }
 .main-installation-left {
-  /* margin-top: 20rem; */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;

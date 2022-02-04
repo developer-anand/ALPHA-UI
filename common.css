@@ -13,7 +13,6 @@
 }
 
 body {
-  /* font-size: 1.6rem; */
   width: 100%;
   min-height: 100vh;
   height: max-content;
@@ -55,14 +54,6 @@ a {
   color: inherit;
 }
 
-/* Box sizing rules
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Remove default margin */
 body,
 h1,
 h2,
