@@ -21,7 +21,7 @@
   align-items: center;
   font-size: 4rem;
   gap: 4rem;
-  border: 2px solid black;
+  border: 2px solid var(--black);
   height: 8rem;
   position: relative;
   margin: auto;
@@ -32,6 +32,7 @@
   position: relative;
   right: 0px;
 }
+
 .icon-badge-count {
   display: inline-flex;
   align-items: center;
@@ -49,22 +50,22 @@
 }
 
 .bg-red {
-  background-color: red;
+  background-color: var(--danger-color);
   border-radius: 50%;
 }
 
 .bg-green {
-  background-color: green;
+  background-color: var(--success-color);
   border-radius: 50%;
 }
 
 .bg-blue {
-  background-color: blue;
+  background-color: var(--blue);
   border-radius: 50%;
 }
 
 .bg-pink {
-  background-color: pink;
+  background-color: var(--pink);
   border-radius: 50%;
 }
 
@@ -96,12 +97,13 @@
 }
 
 .badge-online {
-  background-color: green;
+  background-color: var(--success-color);
 }
+
 .badge-inactive {
-  background-color: rgb(128, 19, 0);
+  background-color: var(--danger-color);
 }
 
 .badge-offline {
-  background-color: grey;
+  background-color: var(--secondary-color);
 }
