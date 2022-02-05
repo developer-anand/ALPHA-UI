@@ -1,0 +1,11 @@
+@import "/common.css";
+
+.btn-title {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.btn-content {
+  font-size: 2rem;
+  padding: 1rem;
+}
