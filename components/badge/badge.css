@@ -47,26 +47,46 @@
 .bg-primary {
   background-color: var(--primary-color);
   border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  display: inline-flex;
+  justify-content: center;
 }
 
 .bg-red {
   background-color: var(--danger-color);
   border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  display: inline-flex;
+  justify-content: center;
 }
 
 .bg-green {
   background-color: var(--success-color);
   border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  display: inline-flex;
+  justify-content: center;
 }
 
 .bg-blue {
   background-color: var(--blue);
   border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  display: inline-flex;
+  justify-content: center;
 }
 
 .bg-pink {
   background-color: var(--pink);
   border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  display: inline-flex;
+  justify-content: center;
 }
 
 .avatar-badge {
