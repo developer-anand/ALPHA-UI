@@ -36,6 +36,9 @@ body {
 
   --off-white: #f6f9fc;
   --active-color: #1ea7fd;
+  --black: #000;
+  --pink: rgb(123, 24, 153);
+  --blue: rgb(15, 13, 128);
 }
 
 html {

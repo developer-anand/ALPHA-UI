@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Badge</title>
-    <link rel="stylesheet" href="badge.css" />
+    <title>avator</title>
+    <link rel="stylesheet" href="/components/badge/badge.css" />
+    <link rel="stylesheet" href="/common.css" />
     <link rel="stylesheet" href="/navbar.css" />
     <link rel="stylesheet" href="/documentation.css" />
     <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="/prism.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -48,12 +50,16 @@
                 <a
                   href="/components/avatar/avatar.html"
                   class="comp-list-item-avator"
-                  ><span>Avator</span></a
+                  ><span>Avatar</span></a
                 >
               </li>
 
               <li class="comp-list-item">
-                <a href="#" class="comp-list-item-alert"><span>Alert</span></a>
+                <a
+                  href="/components/alerts/alert.html"
+                  class="comp-list-item-alert"
+                  ><span>Alert</span></a
+                >
               </li>
 
               <li class="comp-list-item">
@@ -124,13 +130,90 @@
             information.
           </div>
           <div class="badge-title-v2">Badge on Icons</div>
-          <section class="badge on-icon">
-            <i class="fas fa-shopping-cart"></i>
-            <i class="fas fa-user"></i>
-            <i class="far fa-heart"></i>
-            <i class="far fa-envelope"></i>
-            <i class="fas fa-paper-plane"></i>
+          <section class="icon-badge-container">
+            <div class="icon-badge">
+              <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+              <span class="icon-badge-count bg-primary">2</span>
+            </div>
+            <div class="icon-badge">
+              <i class="fas fa-user"></i>
+              <span class="icon-badge-count bg-red">2</span>
+            </div>
+            <div class="icon-badge">
+              <i class="far fa-heart"></i>
+              <span class="icon-badge-count bg-blue">2</span>
+            </div>
+            <div class="icon-badge">
+              <i class="far fa-envelope"></i>
+              <span class="icon-badge-count bg-green">2</span>
+            </div>
+            <div class="icon-badge">
+              <i class="fas fa-paper-plane"></i>
+              <span class="icon-badge-count bg-pink">2</span>
+            </div>
           </section>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2509%253Csection%2520class%253D%2522icon-badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge-count%2520bg-primary%2522%253E2%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge-count%2520bg-red%2522%253E2%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge-count%2520bg-blue%2522%253E2%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge-count%2520bg-green%2522%253E2%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-badge-count%2520bg-pink%2522%253E2%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E"
+            style="
+              width: 714px;
+              height: 30rem;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+              margin-top: 2rem;
+              margin: 10rem;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <section class="avatar-badge-container">
+            <h2 class="badge-title-v2">Badge on Avatar.</h2>
+            <p class="badge-content">
+              In some products, you might need to show a badge on the right
+              corner of the avatar. We call this a badge. Here's an example that
+              shows if the user is online:
+            </p>
+            <div class="img-avatar">
+              <div class="badge">
+                <img
+                  src="https://bit.ly/dan-abramov"
+                  alt="Dan Abrahmov"
+                  class="avatar badge-img"
+                />
+                <span class="badge-status badge-online"></span>
+              </div>
+              <div class="badge">
+                <img
+                  src="https://bit.ly/kent-c-dodds"
+                  alt="Kent Dodds"
+                  class="avatar badge-img"
+                />
+                <span class="badge-status badge-inactive"></span>
+              </div>
+              <div class="badge">
+                <img
+                  src="https://bit.ly/ryan-florence"
+                  alt="Ryan Florence"
+                  class="avatar badge-img"
+                />
+                <span class="badge-status badge-offline"></span>
+              </div>
+            </div>
+          </section>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522img-avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fbit.ly%252Fdan-abramov%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Dan%2520Abrahmov%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520badge-img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-status%2520badge-online%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fbit.ly%252Fkent-c-dodds%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Kent%2520Dodds%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520badge-img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-status%2520badge-inactive%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fbit.ly%252Fryan-florence%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522Ryan%2520Florence%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520badge-img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-status%2520badge-offline%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="
+              width: 800px;
+              height: 30rem;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+              margin: 10rem;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <script src="/prism.js"></script>
         </div>
       </div>
     </div>

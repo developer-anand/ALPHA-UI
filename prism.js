@@ -1,5 +1,5 @@
 /* PrismJS 1.26.0
-https://prismjs.com/download.html#themes=prism-dark&languages=markup+css+clike+javascript */
+https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript */
 var _self =
     "undefined" != typeof window
       ? window
