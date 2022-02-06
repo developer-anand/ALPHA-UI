@@ -2,7 +2,7 @@
 
 .btn-title {
   font-size: 3rem;
-  /* padding: 1rem; */
+  margin: 1rem;
 }
 
 .btn-content {
@@ -15,11 +15,20 @@
   cursor: pointer;
   gap: 1rem;
   max-width: fit-content;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .btn-primary-container {
   margin: 2rem;
   width: 70%;
+  height: 10rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -49,14 +58,6 @@
 }
 
 .btn-primary-outline {
-  display: inline-flex;
-  justify-content: center;
-  position: relative;
-  box-sizing: border-box;
-  border: 0px;
-  margin: 0px;
-  cursor: pointer;
-  text-decoration: none;
   background-color: transparent;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -65,14 +66,6 @@
 }
 
 .btn-primary-text {
-  display: inline-flex;
-  justify-content: center;
-  position: relative;
-  box-sizing: border-box;
-  border: 0px;
-  margin: 0px;
-  cursor: pointer;
-  text-decoration: none;
   background-color: transparent;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -81,14 +74,6 @@
 }
 
 .btn-link {
-  display: inline-flex;
-  justify-content: center;
-  position: relative;
-  box-sizing: border-box;
-  border: 0px;
-  margin: 0px;
-  cursor: pointer;
-  text-decoration: none;
   background-color: transparent;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -114,13 +99,18 @@
   background-color: var(--primary-color);
 }
 
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  border: 0px;
+  margin: 0px;
+  cursor: pointer;
+}
+
 .btn-secondary {
   margin: 2rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  position: relative;
   font-weight: 500;
   font-size: 2rem;
   background-color: var(--secondary-color);
@@ -135,14 +125,6 @@
 }
 
 .btn-secondary-outline {
-  display: inline-flex;
-  justify-content: center;
-  position: relative;
-  box-sizing: border-box;
-  border: 0px;
-  margin: 0px;
-  cursor: pointer;
-  text-decoration: none;
   background-color: transparent;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -151,14 +133,6 @@
 }
 
 .btn-secondary-text {
-  display: inline-flex;
-  justify-content: center;
-  position: relative;
-  box-sizing: border-box;
-  border: 0px;
-  margin: 0px;
-  cursor: pointer;
-  text-decoration: none;
   background-color: transparent;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -167,14 +141,6 @@
 }
 
 .btn-secondary-link {
-  display: inline-flex;
-  justify-content: center;
-  position: relative;
-  box-sizing: border-box;
-  border: 0px;
-  margin: 0px;
-  cursor: pointer;
-  text-decoration: none;
   background-color: transparent;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -200,11 +166,7 @@
   border: 2px solid var(--black);
 }
 
-.fas {
-  cursor: pointer;
-  font-size: 2rem;
-}
-
+.fas,
 .far {
   cursor: pointer;
   font-size: 2rem;
@@ -296,6 +258,7 @@ input:checked + .slider:before {
 flex-items {
   margin: 1rem 1rem 1rem 0;
 }
+
 .btn-float-action {
   box-sizing: border-box;
   display: flex;
