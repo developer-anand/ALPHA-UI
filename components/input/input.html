@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/prism.css" />
+    <link rel="stylesheet" href="/navbar.css" />
+    <link rel="stylesheet" href="/documentation.css" />
+    <!-- <link rel="stylesheet" href="/main.css" /> -->
+    <link rel="stylesheet" href="/components/input/input.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-left">
+          <a href="/index.html"
+            ><img
+              class="nav-logo"
+              src="/images/alpha (1).png"
+              alt="ALPHA"
+            />UI</a
+          >
+        </div>
+        <ul class="nav-right" id="nav-list">
+          <li class="nav-right-item">
+            <a href="/documentation.html">Docs</a>
+          </li>
+          <li class="nav-right-item"><a href="#">Examples</a></li>
+          <li class="nav-right-item"><a href="#">Github</a></li>
+        </ul>
+        <div class="menu" id="toggle-button">
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+        </div>
+      </nav>
+      <div class="container-flex">
+        <div class="components-container">
+          <p class="comp-header">Components</p>
+          <div role="group" class="comp-box">
+            <ul class="comp-list">
+              <li class="comp-list-item">
+                <a
+                  href="/components/avatar/avatar.html"
+                  class="comp-list-item-avator"
+                  ><span>Avator</span></a
+                >
+              </li>
+
+              <li class="comp-list-item">
+                <a
+                  href="/components/alerts/alert.html"
+                  class="comp-list-item-alert"
+                  ><span>Alert</span></a
+                >
+              </li>
+
+              <li class="comp-list-item">
+                <a
+                  href="/components/badge/badge.html"
+                  class="comp-list-item-badge"
+                  ><span>Badge</span></a
+                >
+              </li>
+
+              <li class="comp-list-item">
+                <a
+                  href="/components/button/button.html"
+                  class="comp-list-item-button"
+                  ><span>Button</span></a
+                >
+              </li>
+
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-card"><span>Card</span></a>
+              </li>
+
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-image"><span>Image</span></a>
+              </li>
+
+              <li class="comp-list-item">
+                <a
+                  href="/components/input/input.html"
+                  class="comp-list-item-input"
+                  ><span>Input</span></a
+                >
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-textUtilities"
+                  ><span>Text Utilites</span></a
+                >
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-navigation"
+                  ><span>Navigation</span></a
+                >
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-lists"><span>Lists</span></a>
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-model"><span>Model</span></a>
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-rating"
+                  ><span>Rating</span></a
+                >
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-toast"
+                  ><span>Toast/Notify/Snackbar</span></a
+                >
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-grid"
+                  ><span>Simplified Grid </span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="input-container">
+          <div class="input-title">TEXTAREA</div>
+          <textarea
+            class="textarea-container"
+            placeholder="Enter your text"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <!----Login-->
+          <div class="input-title">Form Input</div>
+          <form action="" class="form-login">
+            <input
+              type="email"
+              class="form-email"
+              placeholder="enter your mail here"
+            />
+            <input
+              type="password"
+              class="form-passward"
+              placeholder="enter your passward here"
+            />
+            <button class="login-btn">Login</button>
+          </form>
+          <!----Error login-->
+          <div class="input-title">Form Output</div>
+          <form action="" class="form-login">
+            <h6>Enter correct email and passward</h6>
+            <input
+              type="email"
+              class="error"
+              placeholder="enter your mail here"
+            />
+            <input
+              type="password"
+              class="error"
+              placeholder="enter your passward here"
+            />
+            <button class="login-btn">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="/prism.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
