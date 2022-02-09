@@ -1,0 +1,55 @@
+@import "/common.css";
+
+.input-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  max-height: 10rem;
+}
+
+.form-login {
+  background: var(--secondary-color);
+  border-radius: 1rem;
+  box-shadow: 1px 1px 2px var(--secondary-color);
+  max-width: 30rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+input {
+  background: var(--COLOR-CYAN-50);
+  border: 1px thin solid black;
+  border-radius: 1rem;
+  color: var(--COLOR-SLATE-700);
+  display: block;
+  font-size: 1.5rem;
+  margin: 10px 5px;
+  padding: 1rem;
+  width: 96%;
+}
+
+.login-btn {
+  background: var(--primary-color);
+  color: var(--black);
+  border-radius: 1rem;
+  background: none;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 1rem 2rem;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+h6 {
+  color: var(--danger-color);
+}
