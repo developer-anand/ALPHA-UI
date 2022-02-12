@@ -1,0 +1,19 @@
+@import "/common.css";
+
+.rating-title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.rating-content {
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.rating {
+  border-radius: 10rem;
+  padding: 2rem;
+  border: 1px solid var(--black);
+  font-size: 3rem;
+  margin: 2rem;
+}
