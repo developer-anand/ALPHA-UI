@@ -26,7 +26,7 @@ hr {
 .cir-img {
   width: 100%;
   height: auto;
-  max-width: 300px;
+  max-width: 30rem;
   border-radius: 50%;
   margin: 2rem;
   padding: 1rem;
@@ -51,7 +51,7 @@ hr {
 .sqr-img {
   width: 100%;
   height: auto;
-  max-width: 300px;
+  max-width: 30rem;
   margin: 2rem;
   padding: 1rem;
   border-radius: 1.8rem;
@@ -66,7 +66,7 @@ hr {
   margin: 2rem;
   width: 100%;
   height: auto;
-  max-width: 800px;
+  max-width: 80rem;
 }
 
 @media only screen and (max-width: 1000px) {
