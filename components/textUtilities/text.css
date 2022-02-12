@@ -1,0 +1,76 @@
+@import "/common.css";
+
+.textUtility-title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+hr {
+  border: solid var(--black);
+  width: 100%;
+  margin: auto;
+}
+
+.headings {
+  margin: 1rem;
+}
+
+.utility {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 80vw;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.utility-headings-container {
+  flex-direction: column;
+  padding: 3rem;
+  border-radius: 2rem;
+  border: 1px solid var(--black);
+  flex-shrink: 1;
+  margin: 1rem;
+  width: 100rem;
+}
+
+.utility-small-text {
+  border-radius: 1rem;
+  border: 1px solid var(--black);
+  height: 5rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.small-heading {
+  margin-left: 2rem;
+}
+
+.grey {
+  color: var(--grey);
+}
+
+.aligned-texts {
+  display: block;
+  border: 1px solid var(--black);
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.text-align-left {
+  text-align: start;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-grey {
+  color: var(--grey);
+}
