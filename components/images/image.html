@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>avator</title>
-    <link rel="stylesheet" href="avatar.css" />
+    <link rel="stylesheet" href="/components/images/image.css" />
+    <link rel="stylesheet" href="/common.css" />
     <link rel="stylesheet" href="/navbar.css" />
     <link rel="stylesheet" href="/documentation.css" />
     <link rel="stylesheet" href="/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
@@ -35,6 +40,7 @@
           <div class="menu-line"></div>
         </div>
       </nav>
+
       <div class="container-flex">
         <div class="components-container">
           <p class="comp-header">Components</p>
@@ -82,7 +88,7 @@
 
               <li class="comp-list-item">
                 <a
-                  href="/components/images/image.html"
+                  href="/components/cards/cards.html"
                   class="comp-list-item-image"
                   ><span>Image</span></a
                 >
@@ -129,123 +135,77 @@
             </ul>
           </div>
         </div>
-        <div class="avatar-container">
-          <h1 class="avatar-header">Avatar</h1>
-          <p class="avatar-content">
-            Avatars are user profile pictures, usually found in circular shapes.
-            Avatars can be used for 'container' objects — projects, spaces,
-            repositories, etcetera — to give them a recognisable visual
-            identity.
-          </p>
-          <h2 class="avatar-header">Profile Avatar</h2>
-          <ul class="avatar-list">
-            <li class="avatar-list-item">
-              <img
-                src="https://bit.ly/dan-abramov"
-                alt="Dan Abrahmov"
-                class="avt-img"
-              />
-            </li>
-            <li class="avatar-list-item">
-              <img
-                src="https://bit.ly/kent-c-dodds"
-                alt="Kent Dodds"
-                class="avt-img"
-              />
-            </li>
-            <li class="avatar-list-item">
-              <img
-                src="https://bit.ly/ryan-florence"
-                alt="Ryan Florence"
-                class="avt-img"
-              />
-            </li>
-            <li class="avatar-list-item">
-              <img
-                src="https://bit.ly/prosper-baba"
-                alt="Prosper Otemuyiwa"
-                class="avt-img"
-              />
-            </li>
-            <li class="avatar-list-item">
-              <img
-                src="https://bit.ly/code-beast"
-                alt="Christian Nwamba"
-                class="avt-img"
-              />
-            </li>
-          </ul>
 
-          <div class="avatar-sizes">
-            <h2 class="avatar-header">Avatar Sizes</h2>
-            <p class="avatar-content">
-              The Avatar component comes in different sizes.
-            </p>
+        <!---Images-->
+        <section class="image-container">
+          <div class="image-title">Images</div>
+          <hr />
+          <div class="image-title">Circular Images</div>
+          <div class="circular-images-container">
+            <img class="cir-img" src="/images/res-img-1.jpg" alt="alpha-img" />
+            <img class="cir-img" src="/images/res-img-2.jpg" alt="jacket" />
+            <img class="cir-img" src="/images/res-img-3.jpg" alt="cloths" />
+          </div>
+          <!--Iframe-->
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cimg%2520class%253D%2522cir-img%2522%2520src%253D%2522%252Fimages%252Fres-img-1.jpg%2522%2520alt%253D%2522alpha-img%2522%2520%252F%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522cir-img%2522%2520src%253D%2522%252Fimages%252Fres-img-2.jpg%2522%2520alt%253D%2522jacket%2522%2520%252F%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522cir-img%2522%2520src%253D%2522%252Fimages%252Fres-img-3.jpg%2522%2520alt%253D%2522cloths%2522%2520%252F%253E"
+            style="
+              display: flex;
+              margin: 2rem;
+              width: 646px;
+              height: 142px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
 
-            <img
-              src="https://bit.ly/dan-abramov"
-              alt="Dan Abrahmov"
-              class="avatar avatar-xs"
-            />
-
-            <img
-              src="https://bit.ly/kent-c-dodds"
-              alt="Kent Dodds"
-              class="avatar avatar-sm"
-            />
-
-            <img
-              src="https://bit.ly/ryan-florence"
-              alt="Ryan Florence"
-              class="avatar avatar-xd"
-            />
-
-            <img
-              src="https://bit.ly/prosper-baba"
-              alt="Prosper Otemuyiwa"
-              class="avatar avatar-md"
-            />
-
-            <img
-              src="https://bit.ly/code-beast"
-              alt="Christian Nwamba"
-              class="avatar avatar-lg"
-            />
+          <!--squared images-->
+          <div class="image-title">Square Images</div>
+          <div class="sqr-images-container">
+            <img class="sqr-img" src="/images/res-img-1.jpg" alt="alpha-img" />
+            <img class="sqr-img" src="/images/res-img-2.jpg" alt="jacket" />
+            <img class="sqr-img" src="/images/res-img-3.jpg" alt="cloths" />
           </div>
 
-          <section class="avatar-badge">
-            <h2 class="avatar-header">Avatar with Badge.</h2>
-            <p class="avatar-content">
-              In some products, you might need to show a badge on the right
-              corner of the avatar. We call this a badge. Here's an example that
-              shows if the user is online:
-            </p>
-            <div class="badge">
-              <img
-                src="https://bit.ly/dan-abramov"
-                alt="Dan Abrahmov"
-                class="avatar badge-img"
-              />
-              <span class="badge-status badge-online"></span>
-            </div>
-            <div class="badge">
-              <img
-                src="https://bit.ly/kent-c-dodds"
-                alt="Kent Dodds"
-                class="avatar badge-img"
-              />
-              <span class="badge-status badge-inactive"></span>
-            </div>
-            <div class="badge">
-              <img
-                src="https://bit.ly/ryan-florence"
-                alt="Ryan Florence"
-                class="avatar badge-img"
-              />
-              <span class="badge-status badge-offline"></span>
-            </div>
-          </section>
-        </div>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522sqr-img%2522%2520src%253D%2522%252Fimages%252Fres-img-1.jpg%2522%2520alt%253D%2522alpha-img%2522%2520%252F%253E%250A%2520%253Cimg%2520class%253D%2522sqr-img%2522%2520src%253D%2522%252Fimages%252Fres-img-2.jpg%2522%2520alt%253D%2522jacket%2522%2520%252F%253E%250A%2520%253Cimg%2520class%253D%2522sqr-img%2522%2520src%253D%2522%252Fimages%252Fres-img-3.jpg%2522%2520alt%253D%2522cloths%2522%2520%252F%253E"
+            style="
+              display: flex;
+              margin: 2rem;
+              width: 630px;
+              height: 142px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <!--squared images-->
+          <div class="image-title">Square Images</div>
+          <div class="responsive-images-container">
+            <img class="res-img" src="/images/res-img-1.jpg" alt="alpha-img" />
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522res-img%2522%2520src%253D%2522%252Fimages%252Fres-img-1.jpg%2522%2520alt%253D%2522alpha-img%2522%2520%252F%253E"
+            style="
+              display: flex;
+              margin: 2rem;
+              width: 621px;
+              height: 105px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
       </div>
     </div>
   </body>
