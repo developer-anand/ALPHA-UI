@@ -5,6 +5,7 @@
   font-weight: 600;
   margin: 1rem;
 }
+
 .card-badge {
   margin: 1rem;
   padding: 1rem;
@@ -15,7 +16,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  border: 1px solid black;
+  border: 1px solid var(--black);
 }
 
 .image-badge {
@@ -88,7 +89,7 @@
 .card-overlay {
   position: absolute;
   color: var(--secondary-color);
-  background-color: rgba(62, 67, 75, 0.5);
+  background-color: var(--card-overlay);
   font-size: 2rem;
   width: 25rem;
   height: 33rem;
@@ -106,7 +107,7 @@
 }
 
 .card-horizontal {
-  border: 1px solid black;
+  border: 1px solid var(--black);
   width: fit-content;
   height: auto;
   margin: 2rem;
@@ -124,6 +125,6 @@
 }
 
 .shadow {
-  box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 30%);
+  box-shadow: 10px 10px 5px 0px var(--card-overlay);
   margin: 2rem;
 }
