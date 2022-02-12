@@ -1,0 +1,129 @@
+@import "/common.css";
+
+.card-title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 1rem;
+}
+.card-badge {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  width: auto;
+  max-width: 25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid black;
+}
+
+.image-badge {
+  position: absolute;
+  font-size: 1rem;
+  left: 0;
+  top: 0;
+  padding: 1rem;
+  left: 0;
+  color: var(--primary-color);
+  background-color: var(--black);
+  cursor: pointer;
+}
+
+.image-badge:hover {
+  background-color: var(--secondary-color);
+}
+
+.img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.card-btns {
+  display: flex;
+}
+
+.prm-btn {
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: 5px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.sec-btn {
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: 5px;
+  background-color: var(--black);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.card-badge-iframe {
+  display: flex;
+  display: block;
+}
+
+.fa {
+  top: 0;
+  right: 0;
+  border-radius: 50rem;
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  background-color: var(--black);
+  position: absolute;
+  cursor: pointer;
+}
+
+.fa:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.card-overlay {
+  position: absolute;
+  color: var(--secondary-color);
+  background-color: rgba(62, 67, 75, 0.5);
+  font-size: 2rem;
+  width: 25rem;
+  height: 33rem;
+  text-align: center;
+  padding-top: 14rem;
+  font-weight: 900;
+}
+
+.card-btn-text {
+  display: flex;
+  font-size: 4rem;
+  color: var(--primary-color);
+  background-color: var(--black);
+  align-items: center;
+}
+
+.card-horizontal {
+  border: 1px solid black;
+  width: fit-content;
+  height: auto;
+  margin: 2rem;
+}
+
+.card-horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-horizontal-content {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.shadow {
+  box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 30%);
+  margin: 2rem;
+}

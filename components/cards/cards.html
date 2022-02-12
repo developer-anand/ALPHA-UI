@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>avator</title>
+    <link rel="stylesheet" href="/components/cards/cards.css" />
+    <link rel="stylesheet" href="/common.css" />
+    <link rel="stylesheet" href="/navbar.css" />
+    <link rel="stylesheet" href="/documentation.css" />
+    <link rel="stylesheet" href="/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-left">
+          <a href="/index.html"
+            ><img
+              class="nav-logo"
+              src="/images/alpha (1).png"
+              alt="ALPHA"
+            />UI</a
+          >
+        </div>
+        <ul class="nav-right" id="nav-list">
+          <li class="nav-right-item">
+            <a href="/documentation.html">Docs</a>
+          </li>
+          <li class="nav-right-item"><a href="#">Examples</a></li>
+          <li class="nav-right-item"><a href="#">Github</a></li>
+        </ul>
+        <div class="menu" id="toggle-button">
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+          <div class="menu-line"></div>
+        </div>
+      </nav>
+      <div class="container-flex">
+        <div class="components-container">
+          <p class="comp-header">Components</p>
+          <div role="group" class="comp-box">
+            <ul class="comp-list">
+              <li class="comp-list-item">
+                <a
+                  href="/components/avatar/avatar.html"
+                  class="comp-list-item-avator"
+                  ><span>Avatar</span></a
+                >
+              </li>
+
+              <li class="comp-list-item">
+                <a
+                  href="/components/alerts/alert.html"
+                  class="comp-list-item-alert"
+                  ><span>Alert</span></a
+                >
+              </li>
+
+              <li class="comp-list-item">
+                <a
+                  href="/components/badge/badge.html"
+                  class="comp-list-item-badge"
+                  ><span>Badge</span></a
+                >
+              </li>
+
+              <li class="comp-list-item">
+                <a
+                  href="/components/button/button.html"
+                  class="comp-list-item-button"
+                  ><span>Button</span></a
+                >
+              </li>
+
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-card"><span>Card</span></a>
+              </li>
+
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-image"><span>Image</span></a>
+              </li>
+
+              <li class="comp-list-item">
+                <a
+                  href="/components/input/input.html"
+                  class="comp-list-item-input"
+                  ><span>Input</span></a
+                >
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-textUtilities"
+                  ><span>Text Utilites</span></a
+                >
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-navigation"
+                  ><span>Navigation</span></a
+                >
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-lists"><span>Lists</span></a>
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-model"><span>Model</span></a>
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-rating"
+                  ><span>Rating</span></a
+                >
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-toast"
+                  ><span>Toast/Notify/Snackbar</span></a
+                >
+              </li>
+              <li class="comp-list-item">
+                <a href="#" class="comp-list-item-grid"
+                  ><span>Simplified Grid </span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <section class="cards-container">
+          <div class="card-title">Cards With Badge</div>
+          <div class="card-badge">
+            <div class="card-badge-image">
+              <img class="img" src="/images/jacket.jpg" alt="image" />
+              <span class="image-badge">Sale</span>
+            </div>
+            <div class="card-title">Jacket</div>
+            <div class="card-para">
+              Lorem ipsum dolor sit amet consectetur elit.
+            </div>
+            <div class="card-btn">
+              <button class="prm-btn">Add to Cart</button>
+              <button class="sec-btn">Buy Now</button>
+            </div>
+          </div>
+          <!---Iframe-->
+          <iframe
+            class="card-badge-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fimages%252Fjacket.jpg%2522%2520alt%253D%2522image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522image-badge%2522%253ESale%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EJacket%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522prm-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522sec-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            <!--
+            style="
+              width: 646px;
+              height: 347px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            --
+          >
+            sandbox="allow-scripts allow-same-origin" >
+          </iframe>
+          <div class="card-title">Cards With Dismiss</div>
+          <div class="card-badge dismiss">
+            <div class="card-badge-image">
+              <img class="img" src="/images/jacket.jpg" alt="image" />
+              <span class="image-badge">Sale</span>
+              <span class="fa">x</span>
+            </div>
+            <div class="card-title">Jacket</div>
+            <div class="card-para">
+              Lorem ipsum dolor sit amet consectetur elit.
+            </div>
+            <div class="card-btn">
+              <button class="prm-btn">Add to Cart</button>
+              <button class="sec-btn">Buy Now</button>
+            </div>
+          </div>
+
+          <iframe
+            class="card-badge-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2520%2520%253Cdiv%2520class%253D%2522card-badge%2520dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fimages%252Fjacket.jpg%2522%2520alt%253D%2522image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522image-badge%2522%253ESale%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522fa%2522%253Ex%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EJacket%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522prm-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522sec-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="
+              width: 646px;
+              height: 365px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="card-title">Cards With TextOverlay</div>
+          <div class="card-badge">
+            <div class="card-badge-image">
+              <img class="img" src="/images/jacket.jpg" alt="image" />
+              <span class="image-badge">Sale</span>
+            </div>
+            <div class="card-title">Jacket</div>
+            <div class="card-para">
+              Lorem ipsum dolor sit amet consectetur elit.
+            </div>
+            <div class="card-btn">
+              <button class="prm-btn">Add to Cart</button>
+              <button class="sec-btn">Buy Now</button>
+            </div>
+            <div class="card-overlay">OUT OF STOCK</div>
+          </div>
+
+          <iframe
+            class="card-badge-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fimages%252Fjacket.jpg%2522%2520alt%253D%2522image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522image-badge%2522%253ESale%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EJacket%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522prm-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522sec-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay%2522%253EOUT%2520OF%2520STOCK%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="
+              width: 646px;
+              height: 365px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="card-title">TextOnly Cards</div>
+          <div class="card-badge text">
+            <div class="card-title">Jacket</div>
+            <div class="card-para">
+              Lorem ipsum dolor sit amet consectetur elit.
+            </div>
+            <div class="card-btn text">
+              <div class="card-btn">
+                <button class="prm-btn">Read More</button>
+                <button class="sec-btn">Share</button>
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            class="card-badge-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2520%253Cdiv%2520class%253D%2522card-badge%2520text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EJacket%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2520text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522prm-btn%2522%253ERead%2520More%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522sec-btn%2522%253EShare%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="
+              width: 545px;
+              height: 310px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="card-title">Horizontle Cards</div>
+          <div class="card-horizontal">
+            <div class="card-badge-image">
+              <img class="img" src="/images/jacket.jpg" alt="image" />
+              <span class="image-badge">Sale</span>
+            </div>
+            <div class="card-horizontal-content">
+              <div class="card-title">Jacket</div>
+              <div class="card-para">
+                Lorem ipsum dolor sit amet consectetur elit.
+              </div>
+              <div class="card-btn">
+                <button class="prm-btn">Add to Cart</button>
+                <button class="sec-btn">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            class="card-badge-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2520%2520%253Cdiv%2520class%253D%2522card-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fimages%252Fjacket.jpg%2522%2520alt%253D%2522image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522image-badge%2522%253ESale%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EJacket%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522prm-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522sec-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="
+              width: 646px;
+              height: 384px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="card-title">Cards With Shadow</div>
+          <div class="card-badge shadow">
+            <div class="card-badge-image">
+              <img class="img" src="/images/jacket.jpg" alt="image" />
+              <span class="image-badge">Sale</span>
+            </div>
+            <div class="card-title">Jacket</div>
+            <div class="card-para">
+              Lorem ipsum dolor sit amet consectetur elit.
+            </div>
+            <div class="card-btn">
+              <button class="prm-btn">Add to Cart</button>
+              <button class="sec-btn">Buy Now</button>
+            </div>
+          </div>
+
+          <iframe
+            class="card-badge-iframe"
+            src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2520%253Cdiv%2520class%253D%2522card-badge%2520shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img%2522%2520src%253D%2522%252Fimages%252Fjacket.jpg%2522%2520alt%253D%2522image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522image-badge%2522%253ESale%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253EJacket%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-para%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522prm-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522sec-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="
+              width: 646px;
+              height: 347px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
