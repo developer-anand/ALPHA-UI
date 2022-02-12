@@ -1,0 +1,62 @@
+@import "/common.css";
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.modal-text {
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.modalBtn {
+  background: var(--blue);
+  padding: 1rem;
+  color: var(--secondary-color);
+  border: 0;
+  cursor: pointer;
+  width: 8rem;
+  max-width: 10rem;
+  align-self: center;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  bottom: 1rem;
+  width: 100%;
+  overflow: auto;
+  background-color: var(--model-color);
+  display: none;
+}
+
+.modal-content {
+  background-color: var(--secondary-color);
+  margin: 50rem auto;
+  padding: 10rem;
+  width: 50%;
+  box-shadow: 0 5px 8px 0 var(--model-color), 0 7px 20px var(--model-color);
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  color: var(--black);
+  right: 6px;
+  top: 0;
+  font-size: 2rem;
+  cursor: pointer;
+}

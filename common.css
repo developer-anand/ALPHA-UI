@@ -42,6 +42,7 @@ body {
   --card-overlay: rgba(62, 67, 75, 0.5);
   --grey: gray;
   --yellow: yellow;
+  --model-color: rgba(0, 0, 0, 0.5);
 }
 
 html {
