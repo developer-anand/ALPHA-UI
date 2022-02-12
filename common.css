@@ -40,6 +40,7 @@ body {
   --pink: rgb(123, 24, 153);
   --blue: rgb(15, 13, 128);
   --card-overlay: rgba(62, 67, 75, 0.5);
+  --grey: gray;
 }
 
 html {
