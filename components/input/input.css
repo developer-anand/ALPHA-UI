@@ -1,8 +1,12 @@
 @import "/common.css";
 
+.input-container {
+  margin-top: 7rem;
+}
+
 .input-title {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 

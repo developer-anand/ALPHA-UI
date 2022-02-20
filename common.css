@@ -8,8 +8,29 @@
   box-sizing: border-box;
 }
 
+.components-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin-right: 20rem;
+  padding-left: 7rem;
+}
+
+.comp-header {
+  position: fixed;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
 .container-flex {
   display: flex;
+}
+
+.comp-box {
+  margin-top: 5rem;
 }
 
 body {

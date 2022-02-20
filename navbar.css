@@ -8,7 +8,9 @@
   align-items: center;
   justify-content: space-between;
   padding: 2rem 1rem;
-  /* height: 7rem; */
+  height: 7rem;
+  position: fixed;
+  width: 100%;
 }
 
 .nav-logo {
@@ -16,9 +18,10 @@
   width: 2rem;
 }
 
-/* .nav-left {
+.nav-left {
   align-self: flex-start;
-} */
+}
+
 .nav-left a {
   padding-left: 6rem;
   font-weight: 500;

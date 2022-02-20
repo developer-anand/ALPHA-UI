@@ -1,5 +1,9 @@
 @import "/common.css";
 
+.badge-container {
+  margin-top: 5rem;
+}
+
 .badge-title {
   font-size: 3rem;
   font-weight: 700;

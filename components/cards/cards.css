@@ -1,5 +1,9 @@
 @import "/common.css";
 
+.cards-container {
+  margin: 5rem;
+}
+
 .card-title {
   font-size: 3rem;
   font-weight: 600;

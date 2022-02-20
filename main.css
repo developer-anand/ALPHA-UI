@@ -13,6 +13,7 @@ main {
   font-size: 5rem;
   left: 1rem;
   font-weight: 600;
+  margin: 6rem;
 }
 
 .main-content {
@@ -32,6 +33,7 @@ main {
 .main-btn a {
   font-size: 2rem;
 }
+
 .btn {
   margin-top: 2rem;
   border: none;
@@ -55,6 +57,7 @@ main {
   padding: 2rem;
   font-size: 4rem;
 }
+
 .main-installation-left {
   display: flex;
   flex-direction: row;
@@ -65,12 +68,21 @@ main {
 }
 
 .main-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: fixed;
+  height: 7rem;
   font-size: large;
   background-color: var(--primary-color);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
+
+h3 {
+  text-align: center;
+  padding: 2rem;
+}
+
 @media screen and (max-width: 800px) {
   .main-header {
     font-size: 2rem;

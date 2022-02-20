@@ -1,5 +1,8 @@
 @import "/common.css";
 
+.btn-container {
+  margin-top: 5rem;
+}
 .btn-title {
   font-size: 3rem;
   margin: 1rem;
