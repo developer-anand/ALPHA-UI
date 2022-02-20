@@ -69,7 +69,7 @@ main {
 
 .main-footer {
   position: fixed;
-  height: 7rem;
+  height: 5rem;
   font-size: large;
   background-color: var(--primary-color);
   position: fixed;
