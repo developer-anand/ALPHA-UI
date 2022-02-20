@@ -1,5 +1,5 @@
 <div align="center">
-# ALPHA UI
+<h1>ALPHA UI</h1>
 
 Now Focus on logic building and make your UI awesome using alpha.
 
