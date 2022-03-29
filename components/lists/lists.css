@@ -1,0 +1,68 @@
+@import "/common.css";
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  margin: 7rem;
+}
+
+.list-title {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.list-content {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.ul-section {
+  padding: 2rem;
+}
+
+.list-header {
+  font-size: 2rem;
+}
+
+.ul-content {
+  padding: 2rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid var(--black);
+  width: 80rem;
+}
+
+.ol-section {
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.ol-content {
+  padding: 5px;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid var(--black);
+  width: 80rem;
+}
+
+.stacked-section {
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.stacked-content {
+  padding: 2rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid var(--black);
+  width: 80rem;
+}
