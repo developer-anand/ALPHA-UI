@@ -20,7 +20,7 @@
   padding: 2rem;
 }
 
-.section-header {
+.list-header {
   font-size: 2rem;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .ol-content {
-  padding: 0.5rem;
+  padding: 5px;
   font-size: 2rem;
   display: flex;
   flex-direction: column;
