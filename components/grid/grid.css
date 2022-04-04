@@ -1,0 +1,39 @@
+@import "/common.css";
+
+.grid-container {
+  width: auto;
+}
+
+.grid-header {
+  margin-top: 7rem;
+}
+
+.grid-two-columns-container,
+.grid-three-columns-container {
+  margin: 4rem;
+  padding: 2rem;
+}
+
+.grid-two-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: var(--secondary-color);
+}
+
+.child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+  margin-left: 8rem;
+  color: var(--secondary-color);
+  width: 50%;
+  background-color: var(--black);
+}
+
+.grid-three-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--secondary-color);
+}
