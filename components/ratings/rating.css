@@ -1,7 +1,11 @@
 @import "/common.css";
 
+.rating-container {
+  margin-top: 7rem;
+}
+
 .rating-title {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 

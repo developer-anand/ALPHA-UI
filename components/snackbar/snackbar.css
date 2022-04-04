@@ -1,0 +1,50 @@
+@import "/common.css";
+
+.snackbar-container {
+  margin-top: 7rem;
+}
+
+.snackbar-header {
+  font-size: 2rem;
+}
+
+.snackbar-content {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+#btn {
+  font-size: 2rem;
+  padding: 1.6rem;
+  border-radius: 5px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+#snackbar {
+  visibility: hidden;
+  top: 50rem;
+  min-width: 25rem;
+  margin-left: -13rem;
+  background-color: var(--black);
+  color: var(--secondary-color);
+  text-align: center;
+  border-radius: 2px;
+  padding: 2rem;
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+}
+
+#snackbar.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
