@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>rating</title>
-    <link rel="stylesheet" href="/components/ratings/rating.css" />
+    <title>Snackbar</title>
+    <link rel="stylesheet" href="/components/snackbar/snackbar.css" />
     <link rel="stylesheet" href="/common.css" />
     <link rel="stylesheet" href="/navbar.css" />
     <link rel="stylesheet" href="/documentation.css" />
@@ -32,7 +32,9 @@
             <a href="/documentation.html">Docs</a>
           </li>
           <li class="nav-right-item"><a href="#">Examples</a></li>
-          <li class="nav-right-item"><a href="#">Github</a></li>
+          <li class="nav-right-item">
+            <a href="https://github.com/developer-anand/ALPHA-UI">Github</a>
+          </li>
         </ul>
         <div class="menu" id="toggle-button">
           <div class="menu-line"></div>
@@ -138,9 +140,7 @@
               </li>
 
               <li class="comp-list-item">
-                <a
-                  href="/components/snackbar/snackbar.html"
-                  class="comp-list-item-toast"
+                <a href="/components/snackbar/snackbar.html" class="comp-list-item-toast"
                   ><span>Toast/Notify/Snackbar</span></a
                 >
               </li>
@@ -152,37 +152,28 @@
             </ul>
           </div>
         </div>
-
-        <!--Ratings-->
-        <section class="rating-container">
-          <div class="rating-title">Rating</div>
-          <div class="rating-content">
-            Ratings provide insight regarding others opinions and experiences
-            with a product. Users can also rate products they’ve purchased.
-          </div>
-
-          <div class="rating-title">Simple rating</div>
-          <div class="rating">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-          </div>
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=6px&ph=9px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E%250A%253Cspan%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fspan%253E"
-            style="
-              width: 100%;
-              height: 20rem;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-        </section>
-      </div>
-    </div>
+        
+        <div class="snackbar-container">
+            <div class="snackbar-header">Snackbar</div>
+            <div class="snackbar-content">Snackbars are often used as tooltips/popups to show a message at the bottom of the screen.</div>
+            <div class="btns">
+            <button id="btn" onclick="showSnackbar()">Show Snackbar</button>
+            <div id="snackbar">Please try again after 5 second</div>
+        </div>
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28250%2C252%2C255%2C1%29&t=blackboard&wt=none&l=htmlmixed&width=1000&ds=true&dsyoff=33px&dsblur=73px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-header%2522%253ESnackbar%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-content%2522%253ESnackbars%2520are%2520often%2520used%2520as%2520tooltips%252Fpopups%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520to%2520show%2520a%2520message%2520at%2520the%2520bottom%2520of%2520the%2520screen.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522btn%2522%2520onclick%253D%2522showSnackbar%28%29%2522%253EShow%2520Snackbar%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522snackbar%2522%253EPlease%2520try%2520again%2520after%25205%2520second%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 1000px; height: 214px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+        </div>
+     
+      </div>    
+      <script>
+          function showSnackbar() {
+             const toast= document.getElementById("snackbar");
+             toast.className = "show";
+             setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 5000);
+}
+      </script>
   </body>
 </html>
