@@ -64,12 +64,12 @@ main {
   justify-content: flex-start;
 }
 .main-title {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 .main-footer {
   position: fixed;
-  height: 5rem;
+  height: 4rem;
   font-size: large;
   background-color: var(--primary-color);
   position: fixed;
