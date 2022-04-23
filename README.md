@@ -12,7 +12,11 @@ Now Focus on logic building and make your UI awesome using alpha.
 To start using the components in your project, Copy-paste the stylesheet <link> into your <head> before all other stylesheets to load its CSS.
 
 ```bash
-<link rel="stylesheet" href="https://alphauidev.netlify.app//styles.css" />
+  //HTML
+  // HTML
+<link rel="stylesheet" href="https://alphauidev.netlify.app/styles.css" />
+  //CSS
+@import url("https://alphauidev.netlify.app/styles.css")
 ```
 
 ## Components in the Alpha UI Library
